@@ -1,4 +1,4 @@
-package Proxy.RealWorld;
+package Proxy.Implementation.RealWorld;
 
 // The 'Proxy Object' class
 public class MathProxy implements IMath{

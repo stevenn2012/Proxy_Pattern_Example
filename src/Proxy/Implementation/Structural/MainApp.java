@@ -1,4 +1,4 @@
-package Proxy.Structural;
+package Proxy.Implementation.Structural;
 
 // MainApp startup class for Structural
 // Proxy Design Pattern.

@@ -1,4 +1,4 @@
-package Proxy.RealWorld;
+package Proxy.Implementation.RealWorld;
 
 // The 'RealSubject' class
 public class Math implements IMath{

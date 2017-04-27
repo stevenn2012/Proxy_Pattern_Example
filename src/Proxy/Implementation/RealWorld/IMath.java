@@ -1,4 +1,4 @@
-package Proxy.RealWorld;
+package Proxy.Implementation.RealWorld;
 
 // The 'Subject' interface
 public interface IMath {

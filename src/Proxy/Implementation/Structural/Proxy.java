@@ -1,4 +1,4 @@
-package Proxy.Structural;
+package Proxy.Implementation.Structural;
 
 // The 'Proxy' class
 public class Proxy implements Subject{

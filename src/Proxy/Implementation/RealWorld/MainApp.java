@@ -1,4 +1,4 @@
-package Proxy.RealWorld;
+package Proxy.Implementation.RealWorld;
 
 // MainApp startup class for Real-World 
 // Proxy Design Pattern.
