@@ -2,23 +2,23 @@ package Proxy.Variations.Virtual;
 
 public abstract class IDEOperation {
 
-	private Compiler cmp;
-	private Runtime rtime;
+	private Compiler compiler;
+	private Runtime runtime;
+	
+	public IDEOperation() {
+		compiler = new Compiler();
+		runtime = new Runtime();
+	}
 	
 	public void compile(String javaFile){
-		cmp.compile(javaFile);
+		compiler.compile(javaFile);
 	}
 	
 	public void run(String classFile){
-		rtime.run(classFile);
+		runtime.run(classFile);
 	}
 	
 	public abstract void generateDocs(String javaFile);
-	
-	public IDEOperation() {
-		cmp = new Compiler();
-		rtime = new Runtime();
-	}
 	
 	class Compiler{
 		public void compile(String javaFile){
