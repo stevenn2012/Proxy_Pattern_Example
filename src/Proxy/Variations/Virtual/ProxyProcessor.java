@@ -1,5 +1,6 @@
 package Proxy.Variations.Virtual;
 
+//the 'Proxy' Class
 public class ProxyProcessor extends IDEOperation{
 
 	private RealProcessor realProcessor;

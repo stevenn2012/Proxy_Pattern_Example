@@ -1,5 +1,6 @@
 package Proxy.Variations.Virtual;
 
+//the 'Client' Class
 public class Client {
 
 	public static void main(String[] args) {

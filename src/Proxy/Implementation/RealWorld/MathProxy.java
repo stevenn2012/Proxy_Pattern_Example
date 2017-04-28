@@ -1,6 +1,6 @@
 package Proxy.Implementation.RealWorld;
 
-// The 'Proxy Object' class
+// The 'Proxy' class
 public class MathProxy implements IMath{
 
 	private Math _math = new Math();

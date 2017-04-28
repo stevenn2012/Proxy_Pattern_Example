@@ -1,6 +1,6 @@
 package Proxy.Implementation.Structural;
 
-// The 'Subject' abstract class
+// The 'Subject' Interface
 public interface Subject {
 	
 	 public void request();

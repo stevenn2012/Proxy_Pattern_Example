@@ -1,6 +1,6 @@
 package Proxy.Implementation.Structural;
 
-// The 'RealSubject' class
+// The 'Real Subject' class
 public class RealSubject implements Subject{
 
 	public void request() {

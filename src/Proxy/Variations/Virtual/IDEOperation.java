@@ -1,5 +1,6 @@
 package Proxy.Variations.Virtual;
 
+//the 'Subject' abstract Class
 public abstract class IDEOperation {
 
 	private Compiler compiler;

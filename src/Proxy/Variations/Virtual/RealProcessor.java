@@ -1,5 +1,6 @@
 package Proxy.Variations.Virtual;
 
+//the 'Real Subject' Class
 public class RealProcessor extends IDEOperation{
 
 	JavaDoc jdoc;

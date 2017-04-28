@@ -1,6 +1,6 @@
 package Proxy.Implementation.RealWorld;
 
-// The 'RealSubject' class
+// The 'Real Subject' class
 public class Math implements IMath{
 
 	public double Add(double x, double y) { 

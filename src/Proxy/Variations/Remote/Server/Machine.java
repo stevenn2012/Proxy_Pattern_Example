@@ -2,7 +2,7 @@ package Proxy.Variations.Remote.Server;
 
 import Proxy.Variations.Remote.Subject.SubjectMachine;
 
-//the 'RealSubject' Class
+//the 'Real Subject' Class
 public class Machine extends SubjectMachine{
 
 	private String status;
