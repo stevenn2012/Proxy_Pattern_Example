@@ -1,8 +1,7 @@
-package Proxy.Remoto;
+package Proxy.Examples.Remoto.Servicio;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -10,14 +9,14 @@ public class PersonaRemota implements Runnable{
 
 	private Thread thread;
 	private ServerSocket socket;
-	private PrintWriter salida;
 	private Socket communicationSocket;
 	
 	public PersonaRemota(){
 		try {
+			System.out.println("Iniciando Servidor");
 			socket = new ServerSocket(3000);
+			System.out.println("Servidor Iniciado");
 			communicationSocket = socket.accept();
-			salida = new PrintWriter(communicationSocket.getOutputStream(), true);
 			thread = new Thread(this);
 			thread.start();
 		} catch (Exception e) {
@@ -44,15 +43,15 @@ public class PersonaRemota implements Runnable{
 		}
 	}
 
-	private void despedirse() {
+	public void saludar() {
 		System.out.println("Hola!!!");
 	}
 
-	private void decirEstado() {
+	public void decirEstado() {
 		System.out.println("Estoy Contento");
 	}
 
-	private void saludar() {
+	public void despedirse() {
 		System.out.println("Chao!!!");
 	}
 }
